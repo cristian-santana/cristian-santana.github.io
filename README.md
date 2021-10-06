@@ -1,2 +1,9 @@
-# cristian-santana.github.io
-MI PORTAFOLIO PERSONAL
+# portafolio.
+portafolio responsivo con html, css y javascript.
+contiene flex.
+efectos de trancicion.
+mi descripcion.
+habilidades.
+proyectos.
+contacto.
+
