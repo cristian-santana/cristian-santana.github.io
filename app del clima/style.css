@@ -1,0 +1,67 @@
+*{
+    font-family: 'Noto Serif', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+   
+}
+
+.container{
+    width: 15rem;
+    height: 32.5rem;
+    border: 2px solid #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 1rem;
+    box-shadow: 7px 7px 5px 0px rgba(15, 14, 14, 0.76);
+}
+
+.container.day{
+    background-image: url(img/playa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#caja1{
+    color: white;
+    display: grid;
+   justify-content: center;
+   margin: 50px 10px 0px 10px;
+   border: 1px solid #ffff;
+   background: rgba(19, 7, 7, 0.2);
+}
+
+#caja2{
+    color: white;
+    display: grid;
+   justify-content: center;
+   font-size: 20px;
+   margin: 30px 10px;
+   border: 1px solid #ffff;
+   background: rgba(0, 0, 0, 0.1);
+}
+
+#caja3{
+    color: white;
+    display: grid;
+   justify-content: center;
+   margin-bottom: 50px;
+   margin: 10px 10px 50px 10px;
+   border: 1px solid #ffff;
+   background: rgba(0, 0, 0, 0.2);
+}
+
