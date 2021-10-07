@@ -1,5 +1,6 @@
 :root{
     --azul:  #6e7285;
+    --tercero:#81808067;;
 }
 
 /*---TOGGLE--*/
@@ -55,7 +56,7 @@
 }
 
 .dark .contact-section{
-    background: var(--gris);
+    background: var(--tercero);
 }
 
 .dark .contact-section .form h4{
@@ -105,7 +106,7 @@
 
 /*---MEDIA QUERI--*/
 
-@media (max-width: 768px){
+@media (max-width: 600px){
     .checkbtn{
         display: block;
     }
@@ -124,12 +125,12 @@
         left: -100%;
         background: var(--negro);
         width: 100%;
-        height: 90vh;
+        height: 60vh;
         right: 0;
     }
 
     .navbar .menu li{
-        padding: 3rem;
+        padding: 2rem;
         display: flex;
         justify-content: center;
         margin: 0;
@@ -146,21 +147,28 @@
 
       /*---MAIN---*/ 
     .main {
-        margin: 0 auto;
-        width: 80vw;
-        height: 80vh;
+        margin: 0;
+        width: 100%;
+        height: 100%;
         align-items: center;   
     }
     
-    h1 {
-        font-size: 2.5em;
+     .main h1 {
+        font-size: 2em;
         color: var(--primario);
+        margin-top:0;
     }
     
     .main p {
         color: var(--primario);
-        width: 80%;
+        width: 60%;
 
+    }
+
+    .dowsload-cv{
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        margin-left: 30px;
     }
     
     .main img {
@@ -168,37 +176,27 @@
         
     }
     /*---HABILIDADES---*/
-    .abaut{
-        height: 400px;
-        display: block;
-        background-color:  var(--fon2);
-        border-top: 3px solid var(--negro);
-        border-bottom: 3px solid var(--negro);     
-    }
 
     .abaut img{
        display: none;    
     }
 
     .slkills-title{
-       text-align: center;
        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,  Cantarell, 'Open Sans', 'Helvetica Neue',    sans-serif;
        color: var(--primario);
-       font-size: 30px;
-       text-transform: uppercase;
-       font-weight: bold; 
+       font-size: 20px;
        margin-left: -10px; 
      }
 
      .skills p {
          margin-left: 35px;
+         margin-bottom: 10px;
      }
 
     .skills-skill{
        font-size: 20px;
        font-weight: 500;
        box-shadow: 0 4px 10px rgba(0,0,0,0.30);
-       border-radius: 15px;
        padding: 0.5em 0.7em;
        margin: 10px;
        background: var(--primario);
@@ -207,15 +205,15 @@
     }
 
     .skills-list {
-       list-style: none;
        padding: 0;
-
        display: flex;
        flex-wrap: wrap;
        justify-content: center;
     }
+
      section p{
         display: inline-block;
+        font-size: 15px;
     }
     section hr{
         display: none;
@@ -236,8 +234,8 @@
          margin-bottom: 3em;
     }
     .container-img{
-        width: 400px;
-        margin-left: -90px;
+        width: 300px;
+        margin-left: -70px;
        
     }
 
@@ -257,14 +255,15 @@
     }
     
     .container-contact img{
-        width: 400px;
-        height: 400px;
-        margin: 0;
+        width: 300px;
+        height: 300px;
+        margin-left: -25px;
         justify-content: center;
     }
     
     .form{
-        width: 50vw;   
+        width: 50vw;
+        margin-left: -20px;   
     }
 
     /*---ARRIBA--*/
@@ -286,6 +285,10 @@
     .our-projects .container-project .project-img a img {
         width: calc(50% - 10px);
         align-items: center
+    }
+
+    .footer-text p {
+        font-size: 12px;
     }
  
 
