@@ -3,7 +3,7 @@
     --secundario:#2e5fff;
     --fondo: #191c32;
     --negro:#000;
-    --gris:#a8bec2;
+    --gris:#3a6c75;
     --fon2: #2a2f5d ;
 }
 *{
@@ -42,7 +42,7 @@ body{
 .navbar{ 
     display: flex;
     justify-content: space-between;
-    padding: 1.5em;
+    padding: 1em;
     background-color: rgba(0,0,0,0.2);
     border-bottom: 1px solid var(--negro);
     box-shadow: 3px 3px 11px -5px rgba(27, 71, 61, 0.69);    
@@ -64,7 +64,7 @@ body{
 }
 
 .brand {
-    margin-top: -30px;
+    margin-top: -20px;
     font-size: 30px;
     color: var(--primario); 
 }
@@ -75,10 +75,8 @@ body{
 
 /*---ICONO HAMBURGEZA--*/
 .menu-icon img {
-    width: 40px;
-    height: 40px;
-    border-radius: 2px;
-    border-radius: 10px;
+    width: 30px;
+    height: 30px;
 }
 
 .menu-icon, #check{
@@ -147,10 +145,11 @@ h1 b {
 
 .main img {
    
-    
+    width: 80%;
+    height: 80%;
      margin-top: 20px;
      margin-right: 10em;
-     border: 1px solid var(--primario);
+     border: 2px solid var(--secundario);
 }
 
 /*---BOTON--*/
@@ -187,8 +186,11 @@ img {
 }
 
 .abaut img{
-    width: 50%;
-    height: 50%;
+    margin-top: 40px;
+    width: 40%;
+    height: 40%;
+    margin-left: 25px;
+    border: 2px solid var(--primario);
 }
 
 .slkills-title{
@@ -197,17 +199,18 @@ img {
  font-size: 40px;
  text-transform: uppercase;
  font-weight: bold;
- margin: 50px 0px;
+ margin: 40px 0px;
  margin-left: 3em;
  }
 
 .skills-skill{
- font-size: 20px;
+ 
+ font-size: 18px;
  font-weight: 500;
  box-shadow: 0 4px 10px rgba(0,0,0,0.30);
  border-radius: 15px;
  padding: 0.5em 0.7em;
- margin-bottom: 30px;
+ margin-bottom: 20px;
  background: var(--primario);
  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,  Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  margin-left: 7em;
@@ -219,6 +222,7 @@ padding: 0;
 
 display: block;
 flex-wrap: wrap;
+
 justify-content: center;
 }
 
@@ -344,6 +348,8 @@ section hr{
     font-size: 3em; 
     color: var(--primario); 
    padding: 1em;
+  
+   margin-bottom: -40px;
 }
 
 .contact-section h2 b{
@@ -363,6 +369,7 @@ section hr{
 .container-contact img{
     width: 50%;
     height: 50%;
+    border: 2px solid var(--negro);
 }
 
 .form{
@@ -492,9 +499,10 @@ section hr{
     position: fixed;
     bottom: 100px;
     right: 0;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border: 2px solid var(--primario);
+    border-radius: 12px;
     background: var(--primario);
     z-index: 9999;
 
